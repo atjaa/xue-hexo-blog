@@ -44,3 +44,7 @@ $ hexo new [layout] <title>
 ``` bash
 $ hexo server
 ```
+打包到发布文件夹public
+```bash
+$ hexo deploy
+```
