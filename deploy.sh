@@ -1,1 +1,1 @@
-git pull && hexo deploy && echo "发布完成..."
+git pull && rm -rf public && hexo deploy && echo "发布完成..."
