@@ -1,7 +1,7 @@
 # Header
 menu:
   首页: /
-  归档: /archives
+  归档: /archives?'+Math.random()+'
 rss: /atom.xml
 
 # Content
