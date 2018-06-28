@@ -20,6 +20,7 @@
     #}{{ totalcount(site, '0,0.0a') }}{#
   #}</span>
   {% endif %}
+  <span class="post-meta-divider">|</span>
   <span class="post-meta-item-icon"><i class="fa fa-user-md"></i></span>
   <span id="busuanzi_container_site_uv">
     本站访客数:<span id="busuanzi_value_site_uv"></span>
