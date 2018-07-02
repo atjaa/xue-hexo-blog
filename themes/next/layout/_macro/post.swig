@@ -117,6 +117,10 @@
             </span>
           {% endif %}
 
+          {% if post.author %}
+            <span>｜</span><span class="fa fa-user-o"></span><span style="color:#222;">{{ post.author }}</span>
+          {% endif %}
+
           {% if post.comments %}
             {% if (theme.duoshuo and theme.duoshuo.shortname) or theme.duoshuo_shortname %}
               <span class="post-comments-count">
