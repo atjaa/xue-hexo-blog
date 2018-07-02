@@ -119,8 +119,9 @@
 
           {% if post.author %}
             <span>｜</span>
+            <span class="fa fa-user-o"></span>
             <span class="post-meta-item-text">作者</span>
-            <span class="fa fa-user-o"></span><span style="color:#222;"> {{ post.author }}</span>
+            <span style="color:#222;"> {{ post.author }}</span>
           {% endif %}
 
           {% if post.comments %}
