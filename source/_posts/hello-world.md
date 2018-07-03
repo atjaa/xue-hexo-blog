@@ -43,3 +43,16 @@ More info: [Deployment](https://hexo.io/docs/deployment.html)
 ``` bash
 cnpm install hexo-wordcount --save
 ```
+
+### Hexo必备插件
+
+```bash
+$ npm install hexo-generator-index --save #索引生成器
+$ npm install hexo-generator-archive --save #归档生成器
+$ npm install hexo-generator-category --save #分类生成器
+$ npm install hexo-generator-tag --save #标签生成器
+$ npm install hexo-server --save #本地服务
+$ npm install hexo-deployer-git --save #hexo通过git发布（必装）
+$ npm install hexo-renderer-marked@0.2.7--save #渲染器
+$ npm install hexo-renderer-stylus@0.3.0 --save #渲染器
+```
