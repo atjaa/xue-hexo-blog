@@ -41,7 +41,7 @@ More info: [Deployment](https://hexo.io/docs/deployment.html)
 ### Next主题打开字数统计插件
 
 ``` bash
-cnpm install hexo-wordcount --save
+npm install hexo-wordcount --save
 ```
 
 ### Hexo必备插件
